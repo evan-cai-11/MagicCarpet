@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		350C94132CBCDB3600635D0F /* MagicCarpetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350C94122CBCDB3600635D0F /* MagicCarpetApp.swift */; };
+		350C94152CBCDB3600635D0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350C94142CBCDB3600635D0F /* ContentView.swift */; };
+		350C94172CBCDB3700635D0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 350C94162CBCDB3700635D0F /* Assets.xcassets */; };
+		350C941A2CBCDB3700635D0F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 350C94192CBCDB3700635D0F /* Preview Assets.xcassets */; };
+		350C941C2CBCDB3700635D0F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350C941B2CBCDB3700635D0F /* Persistence.swift */; };
+		350C941F2CBCDB3700635D0F /* MagicCarpet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 350C941D2CBCDB3700635D0F /* MagicCarpet.xcdatamodeld */; };
+		350C94292CBCDB3700635D0F /* MagicCarpetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350C94282CBCDB3700635D0F /* MagicCarpetTests.swift */; };
+		350C94332CBCDB3700635D0F /* MagicCarpetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350C94322CBCDB3700635D0F /* MagicCarpetUITests.swift */; };
+		350C94352CBCDB3700635D0F /* MagicCarpetUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350C94342CBCDB3700635D0F /* MagicCarpetUITestsLaunchTests.swift */; };
+		350C94432CBCDBB400635D0F /* DestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350C94422CBCDBB400635D0F /* DestinationView.swift */; };
+		350C94462CBCDC2200635D0F /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350C94452CBCDC2200635D0F /* Destination.swift */; };
+		350C94482CBCDC6E00635D0F /* StepperViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350C94472CBCDC6E00635D0F /* StepperViewModel.swift */; };
+		350C944A2CBCDCC300635D0F /* DateSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350C94492CBCDCC300635D0F /* DateSelectionView.swift */; };
+		350C944C2CBCDD0C00635D0F /* WhoIsComingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350C944B2CBCDD0C00635D0F /* WhoIsComingView.swift */; };
+		350C944E2CBCE2FC00635D0F /* QuestionareStepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350C944D2CBCE2FC00635D0F /* QuestionareStepperView.swift */; };
+		350C94502CBCE9DE00635D0F /* DestinationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350C944F2CBCE9DE00635D0F /* DestinationCell.swift */; };
+		350C94532CBCED8E00635D0F /* RemoteImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350C94522CBCED8E00635D0F /* RemoteImageView.swift */; };
+		350C94552CBCEE4D00635D0F /* ResourceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350C94542CBCEE4D00635D0F /* ResourceManager.swift */; };
+		350C94582CC4C57800635D0F /* HorizonCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 350C94572CC4C57800635D0F /* HorizonCalendar */; };
+		350C945A2CC5767C00635D0F /* DateRangeSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350C94592CC5767C00635D0F /* DateRangeSelectionViewController.swift */; };
+		350C945C2CC576F700635D0F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350C945B2CC576F700635D0F /* BaseViewController.swift */; };
+		350C945E2CC57C5600635D0F /* DayRangeSelectionTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350C945D2CC57C5600635D0F /* DayRangeSelectionTracker.swift */; };
+		350C94602CC57E4800635D0F /* DateRangeIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350C945F2CC57E4800635D0F /* DateRangeIndicatorView.swift */; };
+		350C94652CC603C900635D0F /* HowToSpendTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350C94642CC603C900635D0F /* HowToSpendTimeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		350C94252CBCDB3700635D0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 350C94072CBCDB3600635D0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 350C940E2CBCDB3600635D0F;
+			remoteInfo = MagicCarpet;
+		};
+		350C942F2CBCDB3700635D0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 350C94072CBCDB3600635D0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 350C940E2CBCDB3600635D0F;
+			remoteInfo = MagicCarpet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		350C940F2CBCDB3600635D0F /* MagicCarpet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicCarpet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		350C94122CBCDB3600635D0F /* MagicCarpetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicCarpetApp.swift; sourceTree = "<group>"; };
+		350C94142CBCDB3600635D0F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		350C94162CBCDB3700635D0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		350C94192CBCDB3700635D0F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		350C941B2CBCDB3700635D0F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		350C941E2CBCDB3700635D0F /* MagicCarpet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MagicCarpet.xcdatamodel; sourceTree = "<group>"; };
+		350C94242CBCDB3700635D0F /* MagicCarpetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicCarpetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		350C94282CBCDB3700635D0F /* MagicCarpetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicCarpetTests.swift; sourceTree = "<group>"; };
+		350C942E2CBCDB3700635D0F /* MagicCarpetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicCarpetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		350C94322CBCDB3700635D0F /* MagicCarpetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicCarpetUITests.swift; sourceTree = "<group>"; };
+		350C94342CBCDB3700635D0F /* MagicCarpetUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicCarpetUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		350C94422CBCDBB400635D0F /* DestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationView.swift; sourceTree = "<group>"; };
+		350C94452CBCDC2200635D0F /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
+		350C94472CBCDC6E00635D0F /* StepperViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperViewModel.swift; sourceTree = "<group>"; };
+		350C94492CBCDCC300635D0F /* DateSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateSelectionView.swift; sourceTree = "<group>"; };
+		350C944B2CBCDD0C00635D0F /* WhoIsComingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhoIsComingView.swift; sourceTree = "<group>"; };
+		350C944D2CBCE2FC00635D0F /* QuestionareStepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionareStepperView.swift; sourceTree = "<group>"; };
+		350C944F2CBCE9DE00635D0F /* DestinationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationCell.swift; sourceTree = "<group>"; };
+		350C94522CBCED8E00635D0F /* RemoteImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImageView.swift; sourceTree = "<group>"; };
+		350C94542CBCEE4D00635D0F /* ResourceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceManager.swift; sourceTree = "<group>"; };
+		350C94592CC5767C00635D0F /* DateRangeSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateRangeSelectionViewController.swift; sourceTree = "<group>"; };
+		350C945B2CC576F700635D0F /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		350C945D2CC57C5600635D0F /* DayRangeSelectionTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayRangeSelectionTracker.swift; sourceTree = "<group>"; };
+		350C945F2CC57E4800635D0F /* DateRangeIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateRangeIndicatorView.swift; sourceTree = "<group>"; };
+		350C94642CC603C900635D0F /* HowToSpendTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToSpendTimeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		350C940C2CBCDB3600635D0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				350C94582CC4C57800635D0F /* HorizonCalendar in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		350C94212CBCDB3700635D0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		350C942B2CBCDB3700635D0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		350C94062CBCDB3600635D0F = {
+			isa = PBXGroup;
+			children = (
+				350C94112CBCDB3600635D0F /* MagicCarpet */,
+				350C94272CBCDB3700635D0F /* MagicCarpetTests */,
+				350C94312CBCDB3700635D0F /* MagicCarpetUITests */,
+				350C94102CBCDB3600635D0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		350C94102CBCDB3600635D0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				350C940F2CBCDB3600635D0F /* MagicCarpet.app */,
+				350C94242CBCDB3700635D0F /* MagicCarpetTests.xctest */,
+				350C942E2CBCDB3700635D0F /* MagicCarpetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		350C94112CBCDB3600635D0F /* MagicCarpet */ = {
+			isa = PBXGroup;
+			children = (
+				350C94512CBCED0F00635D0F /* Utilities */,
+				350C94442CBCDC0900635D0F /* Models */,
+				350C94412CBCDB5B00635D0F /* Views */,
+				350C94122CBCDB3600635D0F /* MagicCarpetApp.swift */,
+				350C94142CBCDB3600635D0F /* ContentView.swift */,
+				350C94162CBCDB3700635D0F /* Assets.xcassets */,
+				350C941B2CBCDB3700635D0F /* Persistence.swift */,
+				350C941D2CBCDB3700635D0F /* MagicCarpet.xcdatamodeld */,
+				350C94182CBCDB3700635D0F /* Preview Content */,
+			);
+			path = MagicCarpet;
+			sourceTree = "<group>";
+		};
+		350C94182CBCDB3700635D0F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				350C94192CBCDB3700635D0F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		350C94272CBCDB3700635D0F /* MagicCarpetTests */ = {
+			isa = PBXGroup;
+			children = (
+				350C94282CBCDB3700635D0F /* MagicCarpetTests.swift */,
+			);
+			path = MagicCarpetTests;
+			sourceTree = "<group>";
+		};
+		350C94312CBCDB3700635D0F /* MagicCarpetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				350C94322CBCDB3700635D0F /* MagicCarpetUITests.swift */,
+				350C94342CBCDB3700635D0F /* MagicCarpetUITestsLaunchTests.swift */,
+			);
+			path = MagicCarpetUITests;
+			sourceTree = "<group>";
+		};
+		350C94412CBCDB5B00635D0F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				350C94612CC57EC200635D0F /* DateRangeView */,
+				350C94422CBCDBB400635D0F /* DestinationView.swift */,
+				350C94492CBCDCC300635D0F /* DateSelectionView.swift */,
+				350C94472CBCDC6E00635D0F /* StepperViewModel.swift */,
+				350C944B2CBCDD0C00635D0F /* WhoIsComingView.swift */,
+				350C944D2CBCE2FC00635D0F /* QuestionareStepperView.swift */,
+				350C944F2CBCE9DE00635D0F /* DestinationCell.swift */,
+				350C94522CBCED8E00635D0F /* RemoteImageView.swift */,
+				350C94642CC603C900635D0F /* HowToSpendTimeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		350C94442CBCDC0900635D0F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				350C94452CBCDC2200635D0F /* Destination.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		350C94512CBCED0F00635D0F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				350C94542CBCEE4D00635D0F /* ResourceManager.swift */,
+				350C945D2CC57C5600635D0F /* DayRangeSelectionTracker.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		350C94612CC57EC200635D0F /* DateRangeView */ = {
+			isa = PBXGroup;
+			children = (
+				350C94592CC5767C00635D0F /* DateRangeSelectionViewController.swift */,
+				350C945B2CC576F700635D0F /* BaseViewController.swift */,
+				350C945F2CC57E4800635D0F /* DateRangeIndicatorView.swift */,
+			);
+			path = DateRangeView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		350C940E2CBCDB3600635D0F /* MagicCarpet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 350C94382CBCDB3700635D0F /* Build configuration list for PBXNativeTarget "MagicCarpet" */;
+			buildPhases = (
+				350C940B2CBCDB3600635D0F /* Sources */,
+				350C940C2CBCDB3600635D0F /* Frameworks */,
+				350C940D2CBCDB3600635D0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicCarpet;
+			packageProductDependencies = (
+				350C94572CC4C57800635D0F /* HorizonCalendar */,
+			);
+			productName = MagicCarpet;
+			productReference = 350C940F2CBCDB3600635D0F /* MagicCarpet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		350C94232CBCDB3700635D0F /* MagicCarpetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 350C943B2CBCDB3700635D0F /* Build configuration list for PBXNativeTarget "MagicCarpetTests" */;
+			buildPhases = (
+				350C94202CBCDB3700635D0F /* Sources */,
+				350C94212CBCDB3700635D0F /* Frameworks */,
+				350C94222CBCDB3700635D0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				350C94262CBCDB3700635D0F /* PBXTargetDependency */,
+			);
+			name = MagicCarpetTests;
+			productName = MagicCarpetTests;
+			productReference = 350C94242CBCDB3700635D0F /* MagicCarpetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		350C942D2CBCDB3700635D0F /* MagicCarpetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 350C943E2CBCDB3700635D0F /* Build configuration list for PBXNativeTarget "MagicCarpetUITests" */;
+			buildPhases = (
+				350C942A2CBCDB3700635D0F /* Sources */,
+				350C942B2CBCDB3700635D0F /* Frameworks */,
+				350C942C2CBCDB3700635D0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				350C94302CBCDB3700635D0F /* PBXTargetDependency */,
+			);
+			name = MagicCarpetUITests;
+			productName = MagicCarpetUITests;
+			productReference = 350C942E2CBCDB3700635D0F /* MagicCarpetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		350C94072CBCDB3600635D0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					350C940E2CBCDB3600635D0F = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					350C94232CBCDB3700635D0F = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 350C940E2CBCDB3600635D0F;
+					};
+					350C942D2CBCDB3700635D0F = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 350C940E2CBCDB3600635D0F;
+					};
+				};
+			};
+			buildConfigurationList = 350C940A2CBCDB3600635D0F /* Build configuration list for PBXProject "MagicCarpet" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 350C94062CBCDB3600635D0F;
+			packageReferences = (
+				350C94562CC4C57800635D0F /* XCRemoteSwiftPackageReference "HorizonCalendar" */,
+			);
+			productRefGroup = 350C94102CBCDB3600635D0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				350C940E2CBCDB3600635D0F /* MagicCarpet */,
+				350C94232CBCDB3700635D0F /* MagicCarpetTests */,
+				350C942D2CBCDB3700635D0F /* MagicCarpetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		350C940D2CBCDB3600635D0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				350C941A2CBCDB3700635D0F /* Preview Assets.xcassets in Resources */,
+				350C94172CBCDB3700635D0F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		350C94222CBCDB3700635D0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		350C942C2CBCDB3700635D0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		350C940B2CBCDB3600635D0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				350C941F2CBCDB3700635D0F /* MagicCarpet.xcdatamodeld in Sources */,
+				350C944E2CBCE2FC00635D0F /* QuestionareStepperView.swift in Sources */,
+				350C944A2CBCDCC300635D0F /* DateSelectionView.swift in Sources */,
+				350C94652CC603C900635D0F /* HowToSpendTimeView.swift in Sources */,
+				350C94602CC57E4800635D0F /* DateRangeIndicatorView.swift in Sources */,
+				350C944C2CBCDD0C00635D0F /* WhoIsComingView.swift in Sources */,
+				350C94482CBCDC6E00635D0F /* StepperViewModel.swift in Sources */,
+				350C945C2CC576F700635D0F /* BaseViewController.swift in Sources */,
+				350C945E2CC57C5600635D0F /* DayRangeSelectionTracker.swift in Sources */,
+				350C941C2CBCDB3700635D0F /* Persistence.swift in Sources */,
+				350C94462CBCDC2200635D0F /* Destination.swift in Sources */,
+				350C94432CBCDBB400635D0F /* DestinationView.swift in Sources */,
+				350C94152CBCDB3600635D0F /* ContentView.swift in Sources */,
+				350C94502CBCE9DE00635D0F /* DestinationCell.swift in Sources */,
+				350C94552CBCEE4D00635D0F /* ResourceManager.swift in Sources */,
+				350C945A2CC5767C00635D0F /* DateRangeSelectionViewController.swift in Sources */,
+				350C94532CBCED8E00635D0F /* RemoteImageView.swift in Sources */,
+				350C94132CBCDB3600635D0F /* MagicCarpetApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		350C94202CBCDB3700635D0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				350C94292CBCDB3700635D0F /* MagicCarpetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		350C942A2CBCDB3700635D0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				350C94332CBCDB3700635D0F /* MagicCarpetUITests.swift in Sources */,
+				350C94352CBCDB3700635D0F /* MagicCarpetUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		350C94262CBCDB3700635D0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 350C940E2CBCDB3600635D0F /* MagicCarpet */;
+			targetProxy = 350C94252CBCDB3700635D0F /* PBXContainerItemProxy */;
+		};
+		350C94302CBCDB3700635D0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 350C940E2CBCDB3600635D0F /* MagicCarpet */;
+			targetProxy = 350C942F2CBCDB3700635D0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		350C94362CBCDB3700635D0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		350C94372CBCDB3700635D0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		350C94392CBCDB3700635D0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MagicCarpet/Preview Content\"";
+				DEVELOPMENT_TEAM = N798W4D7Q9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ec2ai.MagicCarpet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		350C943A2CBCDB3700635D0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MagicCarpet/Preview Content\"";
+				DEVELOPMENT_TEAM = N798W4D7Q9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ec2ai.MagicCarpet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		350C943C2CBCDB3700635D0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N798W4D7Q9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ec2ai.MagicCarpetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicCarpet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MagicCarpet";
+			};
+			name = Debug;
+		};
+		350C943D2CBCDB3700635D0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N798W4D7Q9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ec2ai.MagicCarpetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicCarpet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MagicCarpet";
+			};
+			name = Release;
+		};
+		350C943F2CBCDB3700635D0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N798W4D7Q9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ec2ai.MagicCarpetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MagicCarpet;
+			};
+			name = Debug;
+		};
+		350C94402CBCDB3700635D0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N798W4D7Q9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ec2ai.MagicCarpetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MagicCarpet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		350C940A2CBCDB3600635D0F /* Build configuration list for PBXProject "MagicCarpet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				350C94362CBCDB3700635D0F /* Debug */,
+				350C94372CBCDB3700635D0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		350C94382CBCDB3700635D0F /* Build configuration list for PBXNativeTarget "MagicCarpet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				350C94392CBCDB3700635D0F /* Debug */,
+				350C943A2CBCDB3700635D0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		350C943B2CBCDB3700635D0F /* Build configuration list for PBXNativeTarget "MagicCarpetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				350C943C2CBCDB3700635D0F /* Debug */,
+				350C943D2CBCDB3700635D0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		350C943E2CBCDB3700635D0F /* Build configuration list for PBXNativeTarget "MagicCarpetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				350C943F2CBCDB3700635D0F /* Debug */,
+				350C94402CBCDB3700635D0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		350C94562CC4C57800635D0F /* XCRemoteSwiftPackageReference "HorizonCalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/HorizonCalendar.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		350C94572CC4C57800635D0F /* HorizonCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 350C94562CC4C57800635D0F /* XCRemoteSwiftPackageReference "HorizonCalendar" */;
+			productName = HorizonCalendar;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		350C941D2CBCDB3700635D0F /* MagicCarpet.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				350C941E2CBCDB3700635D0F /* MagicCarpet.xcdatamodel */,
+			);
+			currentVersion = 350C941E2CBCDB3700635D0F /* MagicCarpet.xcdatamodel */;
+			path = MagicCarpet.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 350C94072CBCDB3600635D0F /* Project object */;
+}
